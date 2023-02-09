@@ -1,0 +1,143 @@
+.signup-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 65%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+}
+
+.signup-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90%;
+    width: 60%;
+    gap: 1.5%;
+    
+}
+
+.logo-head{
+    display: flex;
+    flex-direction: row;
+    height: 5%;
+    width: 85%;
+    justify-content: flex-start;
+    
+    
+}
+
+.head-label{
+    display: flex;
+    height: 15%;
+    width: 85%;
+    font-size: 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.fullname{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 16%;
+    width: 90%;
+    justify-content: flex-start;
+    gap: 2%;
+}
+
+.username{
+    display: flex;
+    flex-flow: row wrap;
+    height: 14%;
+    width: 85%;   
+}
+
+.current-email{
+    display: flex;
+    height: 7%;
+    width: 85%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.password{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 14%;
+    width: 90%;
+    gap: 2%;
+    justify-content: flex-start;
+}
+
+.show-password{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #4c8bf5;
+}
+
+small{
+    display: flex;
+    flex-wrap: wrap;
+    color: #454545;
+    position: relative;
+    left: 7px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    width: 85%;
+}
+
+.next-button{
+    border-radius: 5px;
+    font-size: 18px;
+    height: 60%;
+    width: 20%;
+}
+
+.side-logo{
+    display: flex;
+    height: 100%;
+    width: 34%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-logo-img{
+    height: 32%;
+    width: 70%;
+}
+
+.side-logo-text{
+    height: 10%;
+    width: 70%;
+}
+
+

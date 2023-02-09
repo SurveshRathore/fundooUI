@@ -1,0 +1,44 @@
+
+.takeNoteTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 25vh;
+    width: 50vw;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 10px auto auto auto;
+}
+.titlebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5%;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.textbox{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    border: none;
+    outline: none;
+   
+}
+
+.textbox-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20%;
+    width: 90%;
+}
+
+.close-btn {
+    display: flex;
+    align-items: flex-end;
+    color:black;
+}

@@ -1,0 +1,29 @@
+.addNote{
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    width: 50vw;
+    margin: 10px auto auto auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+   
+    /* top: 100px;
+    left: 120px; */
+ 
+}
+
+.imgBlock{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    height: 90%;
+    width: 20%;
+    align-items: center;
+}
+
+#textField{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    width: 70%;
+}
